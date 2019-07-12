@@ -1,0 +1,82 @@
+html,
+body {
+  margin: 0;
+}
+
+.nav {
+  width: 100%;
+  height: 65px;
+  position: fixed;
+  z-index: 1000;
+}
+
+.nav .navbar {
+  margin: 0 40px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.nav .navbar .navBrand {
+  justify-self: flex-start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav .navbar .navBrand img {
+  height: 40px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.nav .navbar .navList {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 0;
+  margin: 0 0 0 auto;
+}
+
+.nav .navbar .navList .navItem {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding: 0 20px;
+}
+
+/* Nav styles ------------------------------------- */
+.light {
+  background: #fff;
+  border-bottom: 1px solid #f6f6f6;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[12];
+      grid-template-columns: repeat(12, 1fr);
+  grid-gap: 20px;
+}
+
+.container .jumbo {
+  grid-column: span 12;
+  height: 90vh;
+  width: 100%;
+}
+
+/* Test content ------------------------------------ */
+.testJumbo {
+  background-color: lightblue;
+}
+
+.testOne {
+  background-color: red;
+  height: 300px;
+  width: 100%;
+}
+/*# sourceMappingURL=main.css.map */

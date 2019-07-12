@@ -1,0 +1,64 @@
+html,
+body {
+  margin: 0;
+}
+
+.nav {
+  width: 100%;
+  height: 65px;
+  position: fixed;
+  z-index: 1000;
+  .navbar {
+    margin: 0 40px;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    .navBrand {
+      justify-self: flex-start;
+      display: flex;
+      img {
+        height: 40px;
+        align-self: center;
+      }
+    }
+    .navList {
+      display: inline-flex;
+      padding: 0;
+      margin: 0 0 0 auto;
+      .navItem {
+        align-self: center;
+        padding: 0 20px;
+      }
+    }
+  }
+}
+
+/* Nav styles ------------------------------------- */
+
+.light {
+  background: #fff;
+  border-bottom: 1px solid #f6f6f6;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 20px;
+  .jumbo {
+    grid-column: span 12;
+    height: 90vh;
+    width: 100%;
+  }
+}
+
+/* Test content ------------------------------------ */
+
+.testJumbo {
+  background-color: lightblue;
+}
+
+.testOne {
+  background-color: red;
+  height: 300px;
+  width: 100%;
+}
