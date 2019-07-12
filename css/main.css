@@ -62,12 +62,53 @@ body {
   -ms-grid-columns: (1fr)[12];
       grid-template-columns: repeat(12, 1fr);
   grid-gap: 20px;
+  /* Box spans ------------------------------------- */
 }
 
 .container .jumbo {
   grid-column: span 12;
   height: 90vh;
   width: 100%;
+}
+
+.container .span2 {
+  grid-column: span 2;
+}
+
+.container .span3 {
+  grid-column: span 3;
+}
+
+.container .span4 {
+  grid-column: span 4;
+}
+
+.container .span5 {
+  grid-column: span 5;
+}
+
+.container .span6 {
+  grid-column: span 6;
+}
+
+.container .span7 {
+  grid-column: span 7;
+}
+
+.container .span8 {
+  grid-column: span 8;
+}
+
+.container .span9 {
+  grid-column: span 9;
+}
+
+.container .span10 {
+  grid-column: span 10;
+}
+
+.container .span11 {
+  grid-column: span 11;
 }
 
 /* Test content ------------------------------------ */
