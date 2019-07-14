@@ -5,6 +5,10 @@ body {
 
 /* Nav styles ------------------------------------- */
 
+.pageContainer {
+  margin: 0 40px;
+}
+
 .nav {
   width: 100%;
   height: 65px;
@@ -42,15 +46,24 @@ body {
   border-bottom: 1px solid #f6f6f6;
 }
 
+.dark {
+  background: #575757;
+  border-bottom: 1px solid #f6f6f6;
+  .navItem {
+    color: #fff;
+  }
+}
+
+.jumbo {
+  height: 90vh;
+  width: 100%;
+}
+
 .container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-gap: 20px;
-  .jumbo {
-    grid-column: span 12;
-    height: 90vh;
-    width: 100%;
-  }
+  margin: 60px 0;
   /* Box spans ------------------------------------- */
   .span2 {
     grid-column: span 2;
@@ -94,4 +107,14 @@ body {
   background-color: red;
   height: 300px;
   width: 100%;
+}
+
+.testTwo {
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba($color: #888888, $alpha: 0.6);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
